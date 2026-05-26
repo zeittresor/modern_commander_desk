@@ -1,0 +1,8 @@
+{
+  "id": "mpv-audio",
+  "name": "mpv audio helper",
+  "kind": "audio",
+  "extensions": [".wav", ".mp3", ".ogg", ".flac", ".m4a", ".aac", ".mod", ".xm", ".s3m", ".it", ".mid", ".midi"],
+  "executable": "mpv",
+  "arguments": "--force-window=yes \"{file}\""
+}

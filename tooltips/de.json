@@ -20,5 +20,7 @@
   "pane.filter": "Filtert die sichtbaren Einträge dieses Panels. Unterordner werden nicht durchsucht.",
   "pane.back": "Zurück in diesem Panel.",
   "pane.up": "Übergeordneter Ordner dieses Panels.",
-  "pane.refresh": "Dieses Panel aktualisieren."
+  "pane.refresh": "Dieses Panel aktualisieren.",
+  "toolbar.locations": "Wählt ein Laufwerk, Root, einen Mountpoint oder häufig genutzten Ordner für das aktive Panel.",
+  "pane.locations": "Öffnet die Laufwerks-/Root-Auswahl für dieses Panel."
 }

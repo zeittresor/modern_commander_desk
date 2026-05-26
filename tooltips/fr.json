@@ -20,5 +20,7 @@
   "pane.filter": "Filter the visible entries in this panel. It does not search subfolders.",
   "pane.back": "Back in this panel.",
   "pane.up": "Parent folder of this panel.",
-  "pane.refresh": "Reload this panel."
+  "pane.refresh": "Reload this panel.",
+  "toolbar.locations": "Choisir un lecteur, une racine, un point de montage ou un dossier courant pour le panneau actif.",
+  "pane.locations": "Ouvre le sélecteur de lecteur/racine pour ce panneau."
 }

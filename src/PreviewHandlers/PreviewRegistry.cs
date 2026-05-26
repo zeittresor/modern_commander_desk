@@ -5,7 +5,10 @@ public static class PreviewRegistry
     private static readonly IReadOnlyList<IPreviewHandler> BuiltInHandlers = new IPreviewHandler[]
     {
         new TextPreviewHandler(),
+        new DocumentPreviewHandler(),
         new ImagePreviewHandler(),
+        new AudioPlayerPreviewHandler(),
+        new VideoPlayerPreviewHandler(),
         new ModInfoPreviewHandler(),
         new MediaInfoPreviewHandler(),
         new HexPreviewHandler()

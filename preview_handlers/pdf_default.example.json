@@ -1,0 +1,8 @@
+{
+  "id": "system-pdf",
+  "name": "system PDF viewer",
+  "kind": "document",
+  "extensions": [".pdf"],
+  "executable": "xdg-open",
+  "arguments": "\"{file}\""
+}

@@ -1,4 +1,4 @@
-Modern Commander Desk v0.3.3 - Tastaturhilfe
+Modern Commander Desk v0.4.5 - Tastaturhilfe
 
 Tab: aktives Panel wechseln
 Enter: Datei/Ordner öffnen
@@ -20,3 +20,12 @@ Die App nutzt getrennte Ressourcenordner:
 - help/: Hilfedokumente
 - plugins/: Plugin-Manifeste
 - preview_handlers/: externe Vorschau-/Player-Handler und spätere Drop-ins
+
+Maus:
+- Ziehe eine ausgewählte Datei oder einen Ordner von einem Panel ins andere.
+- Beim Ablegen wählst du Kopieren, Verschieben oder Abbrechen.
+
+Vorschau:
+- F3 öffnet die Vorschau-Handler-Registry.
+- Bilder unterstützen Zoom, Slideshow und Vollbild.
+- Audio/Video nutzt externe Helfer wie mpv, VLC oder FFplay, sofern vorhanden.

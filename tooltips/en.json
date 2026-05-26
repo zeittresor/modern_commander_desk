@@ -20,5 +20,7 @@
   "pane.filter": "Filter the visible entries in this panel. It does not search subfolders.",
   "pane.back": "Back in this panel.",
   "pane.up": "Parent folder of this panel.",
-  "pane.refresh": "Reload this panel."
+  "pane.refresh": "Reload this panel.",
+  "toolbar.locations": "Choose a drive, root, mount point or common folder for the active panel.",
+  "pane.locations": "Open the drive/root chooser for this panel."
 }

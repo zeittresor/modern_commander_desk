@@ -4,7 +4,7 @@ cd "$(dirname "$0")"
 
 echo ""
 echo "============================================================"
-echo " Modern Commander Desk v0.3.3 - Linux x64 Single-File Publish"
+echo " Modern Commander Desk v0.4.5 - Linux x64 Single-File Publish"
 echo "============================================================"
 echo ""
 

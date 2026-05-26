@@ -1,0 +1,8 @@
+{
+  "id": "mpv-video",
+  "name": "mpv video helper",
+  "kind": "video",
+  "extensions": [".mp4", ".mkv", ".webm", ".avi", ".mov", ".wmv", ".mpg", ".mpeg"],
+  "executable": "mpv",
+  "arguments": "\"{file}\""
+}

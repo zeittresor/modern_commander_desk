@@ -1,12 +1,22 @@
-# Preview handlers
+# preview_handlers
 
-Built-in preview handler source code lives in `src/PreviewHandlers/`.
+This folder contains optional JSON manifests for external preview helpers.
 
-Runtime extension ideas for later versions:
+v0.4 includes built-in preview routing for text/code, images, audio, video, tracker modules, RTF/DOCX/ODT/PDF metadata and hex fallback. Heavy playback/rendering engines are intentionally not bundled into the core app. Instead the preview window can launch small helper tools such as mpv, VLC, FFplay, openmpt123 or TiMidity++.
 
-- `mod_player/` using libopenmpt or an external command-line player for MOD/XM/S3M/IT files
-- `ffmpeg_media_preview/` for audio/video metadata and thumbnails
-- `image_extras/` for unusual image formats
-- `hex_plus/` for richer binary inspection
+Example manifest:
 
-v0.3 includes built-in handlers for text/code, images, tracker module metadata, audio/video metadata placeholders, and hex fallback.
+```json
+{
+  "id": "mpv-audio",
+  "name": "mpv audio helper",
+  "kind": "audio",
+  "extensions": [".mp3", ".ogg", ".flac", ".mod", ".xm"],
+  "executable": "mpv",
+  "arguments": "--force-window=yes \"{file}\""
+}
+```
+
+Supported `kind` values used by the built-in handlers: `audio`, `video`, `document`.
+
+The first matching helper that is available in PATH or by absolute executable path is used. If no helper is found, the preview dialog still shows file metadata and offers to open the file with the default system application.

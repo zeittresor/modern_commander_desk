@@ -4,7 +4,7 @@ cd /d "%~dp0"
 
 echo.
 echo ============================================================
-echo  Modern Commander Desk v0.3.3 - Windows Build
+echo  Modern Commander Desk v0.4.5 - Windows Build
 echo ============================================================
 echo.
 

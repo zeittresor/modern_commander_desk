@@ -1,4 +1,4 @@
-Modern Commander Desk v0.3.3 - Keyboard help
+Modern Commander Desk v0.4.5 - Keyboard help
 
 Tab: switch active panel
 Enter: open file/folder
@@ -20,3 +20,12 @@ The app uses separate resource folders:
 - help/: help documents
 - plugins/: plugin manifests
 - preview_handlers/: external preview/player handler notes and future drop-ins
+
+Mouse:
+- Drag a selected file/folder from one panel to the other.
+- On drop, choose Copy, Move or Cancel.
+
+Preview:
+- F3 opens the preview handler registry.
+- Images support zoom, slideshow and fullscreen.
+- Audio/video use external helpers such as mpv, VLC or FFplay when available.
