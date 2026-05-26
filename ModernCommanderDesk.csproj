@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>ModernCommanderDesk</AssemblyName>
+    <RootNamespace>ModernCommanderDesk</RootNamespace>
+    <Version>0.3.3</Version>
+    <Authors>ModernCommanderDesk</Authors>
+    <Company>ModernCommanderDesk</Company>
+    <Product>Modern Commander Desk</Product>
+    <Description>A cross-platform dual-pane commander-style file manager with resource-based localization, tooltips, help files, plugin manifests and modular preview handlers.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.*" />
+    <PackageReference Include="Avalonia.Controls.DataGrid" Version="11.*" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.*" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.*" />
+    <PackageReference Include="Avalonia.Fonts.Inter" Version="11.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="lang\**\*.*" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="tooltips\**\*.*" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="help\**\*.*" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="plugins\**\*.*" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="preview_handlers\**\*.*" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="helpers\**\*.*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

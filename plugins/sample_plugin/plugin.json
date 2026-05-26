@@ -1,0 +1,8 @@
+{
+  "id": "sample.external-tool",
+  "name": "Sample External Tool Plugin",
+  "version": "0.1.0",
+  "type": "helper",
+  "entry": "sample-tool-placeholder",
+  "description": "Manifest example for future helper/plugin modules. v0.3 lists plugin manifests but does not execute arbitrary plugin code yet."
+}
