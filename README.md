@@ -2,6 +2,8 @@
 
 A cross-platform, dual-pane commander-style file manager written in C# / Avalonia.
 
+<img width="1599" height="887" alt="modern_commander_desk" src="https://github.com/user-attachments/assets/a31f8c5d-b4a5-4c11-b708-f23ede1f63df" />
+
 ## Main features
 
 - Left/right dual-pane view
